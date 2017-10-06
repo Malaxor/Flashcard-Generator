@@ -1,0 +1,46 @@
+[
+  {
+    "front": "What city is the capital of the country Turkey?",
+    "back": "Ankara"
+  },
+  {
+    "front": "A koala's diet consists mainly of what?",
+    "back": "Eucalyptus leaves"
+  },
+  {
+    "front": "The Van Gogh museum is located in what European capital city?",
+    "back": "Amsterdam"
+  },
+  {
+    "front": "The island of Saipan is a commonwealth of which country?",
+    "back": "United States"
+  },
+  {
+    "front": "What are the first three words of the bible?",
+    "back": "In the beginning"
+  },
+  {
+    "front": "In what year was the iPhone first released?",
+    "back": "2007"
+  },
+  {
+    "front": "Schrödinger's cat is a thought experiment dealing with which type of mechanics?",
+    "back": "Quantum Mechanics"
+  },
+  {
+    "front": "Which five-times Grand Slam tennis champion tested postive for a banned substance at the 2016 Australian Open?",
+    "back": "Maria Sharapova"
+  },
+  {
+    "front": "How many chambers are there in a dog's heart?",
+    "back": "Four"
+  },
+  {
+    "front": "What is the name given to an ancient analog computer that was discovered by divers off a Greek island in 1900?",
+    "back": "Antikythera mechanism"
+  },
+  {
+    "front": "who killed mr.who?",
+    "back": "Me!"
+  }
+]
