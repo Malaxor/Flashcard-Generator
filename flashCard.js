@@ -2,8 +2,8 @@
 var fs = require("fs");
 var inquirer = require("inquirer");
 // exported files stored into variables
-var basicCard = ("./basicCard.js");
-var clozeCard = ("./clozeCard");
+var basicCard = require("./basicCard.js");
+var clozeCard = require("./clozeCard.js");
 // store the choices (basic, cloze) into an array
 var types = ["basic", "cloze"];
 // this inquirer will be utilized at startup
@@ -11,7 +11,7 @@ inquirer.prompt([
 	{
 		name: "options",
 		type: "list",
-		message: "Please select a choice from the list",
+		message: "\nPlease select a choice from the list",
 		choices: ["generate flashcards", "study"]
 	}
 ]).then(function(response) {
@@ -31,13 +31,13 @@ inquirer.prompt([
 				// display the message bellow in command
 				console.log("You've chosen to create basic flashcards");
 				// run the follwing two functions:
-				basicCard.pushBasic();
+				basicCard.generateBasic();
 			}
 			else if (create.cards === "cloze") {
 				// display the message bellow in command
 				console.log("You've chosen to create cloze flashcards");
 				// run the follwing two functions:
-				clozeCard.pushCloze();
+				clozeCard.generateCloze();
 			}
 		});
 	} 

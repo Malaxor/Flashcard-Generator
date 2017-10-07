@@ -1,52 +1,52 @@
 [
-    {
-        "full": "In Japan, letting a sumo wrestler make your baby cry is considered good luck.",
-        "cloze": "sumo wrestler",
-        "partial": "In Japan, letting a ... make your baby cry is considered good luck."
-    },
-    {
-        "full": "Sea otters hold hands when they sleep so they don't drift apart.",
-        "cloze": "Seat otters",
-        "partial": "... hold hands when they sleep so they don't drift apart."
-    },
-    {
-        "full": "In 1986, Apple launched a clothing line.",
-        "cloze": "clothing line",
-        "partial": "In 1986, Apple launched a ... ."
-    },
-    {
-        "full": "The Code of Hammurabi decreed that bartenders who watered down beer would be executed.",
-        "cloze": "Code of Hammurabi",
-        "partial": "The ... decreed that bartenders who watered down beer would be executed."
-    },
-    {
-        "full": "In 19th-century Britain, opium for babies was marketed under the name "Quietness.",
-        "cloze": "opium,
-        "partial": "In 19th-century Britain, ... for babies was marketed under the name "Quietness."
-    },
-    {
-        "full": "Google was originally named BackRub",
-        "cloze": "BackRub",
-        "partial": "Google was originally named ... ."
-    },
-    {
-        "full": "The SarcMark was invented by Paul Sak to emphasize a sarcastic phrase, sentence or message.",
-        "cloze": "SarcMark",
-        "partial": "The ... was invented by Paul Sak to emphasize a sarcastic phrase, sentence or message."
-    },
-    {
-        "full": "Winston Churchill's mother was born in Brooklyn.",
-        "cloze": "Churchill's",
-        "partial": "Winston ... mother was born in Brooklyn."
-    },
-    {
-        "full": "Before Stephen Hillenburg created SpongeBob SquarePants, he taught marine biology.",
-        "cloze": "SpongeBob SquarePants",
-        "partial": "Before Stephen Hillenburg created ... , he taught marine biology."
-    },
-    {
-        "full": "George Washington insisted his continental army be permitted a quart of beer as part of their daily rations.",
-        "cloze": "continental army",
-        "partial": "George Washington insisted his ... be permitted a quart of beer as part of their daily rations."
-    }
+  {
+    "full": "In Japan, letting a sumo wrestler make your baby cry is considered good luck.",
+    "cloze": "sumo wrestler",
+    "partial": "In Japan, letting a ... make your baby cry is considered good luck."
+  },
+  {
+    "full": "Sea otters hold hands when they sleep so they don't drift apart.",
+    "cloze": "Seat otters",
+    "partial": "... hold hands when they sleep so they don't drift apart."
+  },
+  {
+    "full": "In 1986, Apple launched a clothing line.",
+    "cloze": "clothing line",
+    "partial": "In 1986, Apple launched a ... ."
+  },
+  {
+    "full": "The Code of Hammurabi decreed that bartenders who watered down beer would be executed.",
+    "cloze": "Code of Hammurabi",
+    "partial": "The ... decreed that bartenders who watered down beer would be executed."
+  },
+  {
+    "full": "In 19th-century Britain, opium for babies was marketed under the name 'Quietness.'",
+    "cloze": "opium",
+    "partial": "In 19th-century Britain, ... for babies was marketed under the name 'Quietness.'"
+  },
+  {
+    "full": "Google was originally named BackRub",
+    "cloze": "BackRub",
+    "partial": "Google was originally named ... ."
+  },
+  {
+    "full": "The SarcMark was invented by Paul Sak to emphasize a sarcastic phrase, sentence or message.",
+    "cloze": "SarcMark",
+    "partial": "The ... was invented by Paul Sak to emphasize a sarcastic phrase, sentence or message."
+  },
+  {
+    "full": "Winston Churchill's mother was born in Brooklyn.",
+    "cloze": "Churchill's",
+    "partial": "Winston ... mother was born in Brooklyn."
+  },
+  {
+    "full": "Before Stephen Hillenburg created SpongeBob SquarePants, he taught marine biology.",
+    "cloze": "SpongeBob SquarePants",
+    "partial": "Before Stephen Hillenburg created ... , he taught marine biology."
+  },
+  {
+    "full": "George Washington insisted his continental army be permitted a quart of beer as part of their daily rations.",
+    "cloze": "continental army",
+    "partial": "George Washington insisted his ... be permitted a quart of beer as part of their daily rations."
+  }
 ]

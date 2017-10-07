@@ -1,46 +1,42 @@
 [
   {
-    "front": "What city is the capital of the country Turkey?",
-    "back": "Ankara"
+    "front": "What type of bridge is the Golden Gate Bridge?",
+    "back": "Suspension"
   },
   {
-    "front": "A koala's diet consists mainly of what?",
-    "back": "Eucalyptus leaves"
+    "front": "The dingo is a free ranging dog found mainly in which country?",
+    "back": "Australia"
   },
   {
-    "front": "The Van Gogh museum is located in what European capital city?",
-    "back": "Amsterdam"
+    "front": "Which painter started the impressionist movement?",
+    "back": "Claude Monet"
   },
   {
-    "front": "The island of Saipan is a commonwealth of which country?",
-    "back": "United States"
+    "front": "What is the Japanese word that means 'empty orchestra'?",
+    "back": "Karaoke"
   },
   {
-    "front": "What are the first three words of the bible?",
-    "back": "In the beginning"
+    "front": "War and Peace, originally published in 1869, is a novel written by which Russian author?",
+    "back": "Leo Tolstoy"
   },
   {
-    "front": "In what year was the iPhone first released?",
-    "back": "2007"
+    "front": "What does HTTP stand for in a website address?",
+    "back": "Hyper Text Transfer Protocol"
   },
   {
-    "front": "Schrödinger's cat is a thought experiment dealing with which type of mechanics?",
-    "back": "Quantum Mechanics"
+    "front": "Which country won the 2012 UEFA European Championship?",
+    "back": "Spain"
   },
   {
-    "front": "Which five-times Grand Slam tennis champion tested postive for a banned substance at the 2016 Australian Open?",
-    "back": "Maria Sharapova"
+    "front": "Released in 1992, what is the best selling soundtrack album of all time?",
+    "back": "The Bodyguard"
   },
   {
-    "front": "How many chambers are there in a dog's heart?",
-    "back": "Four"
+    "front": "Who played the female lead in the 1942 film Casablanca?",
+    "back": "Ingrid Bergman"
   },
   {
-    "front": "What is the name given to an ancient analog computer that was discovered by divers off a Greek island in 1900?",
-    "back": "Antikythera mechanism"
-  },
-  {
-    "front": "who killed mr.who?",
-    "back": "Me!"
+    "front": "In the 'Lord of the Rings' film series which actor plays the character of Saruman?",
+    "back": "Christopher Lee"
   }
 ]
