@@ -38,5 +38,13 @@
   {
     "front": "In the 'Lord of the Rings' film series which actor plays the character of Saruman?",
     "back": "Christopher Lee"
+  },
+  {
+    "front": "Who owns the Detroit Red Wings hockey team?",
+    "back": "Mike Illitch"
+  },
+  {
+    "front": "Who?",
+    "back": "The Who"
   }
 ]
