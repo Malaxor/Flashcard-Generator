@@ -1,5 +1,4 @@
 
-
 Flashcard-Generator
 
  This node.js application will allow the user to create and study with flashcards.
