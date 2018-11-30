@@ -40,11 +40,7 @@
     "back": "Christopher Lee"
   },
   {
-    "front": "Who owns the Detroit Red Wings hockey team?",
-    "back": "Mike Illitch"
-  },
-  {
-    "front": "Who?",
-    "back": "The Who"
+    "front": "Who is the greatest rock & roll band of all time?",
+    "back": "Rolling Stones"
   }
 ]

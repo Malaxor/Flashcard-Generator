@@ -1,49 +1,41 @@
-// required node modules
-var inquirer = require("inquirer");
-var fs = require("fs");
 
-var choices = ["basic", "cloze"];
+const inquirer = require("inquirer");
+const fs = require("fs");
 
-var cardArray = [];
-
-// run this function to begin the deletion process
 function deleteBasic() {
 
-	fs.readFile("basic.txt", "utf8", function(err, res) {
-		// if we don't get an error
+	const basicArr = [];
+
+	fs.readFile("basic.txt", "utf8", (err, res) => {
+		
 		if(!err) {
-			// store the parsed response into a new variable
-			var data = JSON.parse(res);
-			// run a for-loop through the data
-			for(var i = 0; i < data.length; i++) {
-				// push the data into the empty cardArray
-				cardArray.push(data[i].front);
-			}	
+			
+			res = JSON.parse(res);
+			res.forEach(item => basicArr.push(item.front));
+
 			inquirer.prompt([
 				{
-					name: "card",
+					name: "cards",
 					type: "list",
 					message: "================================================\nWhich basic card would you like to delete?\n==================================================",
-					choices: cardArray 
+					choices: basicArr 
 				}
-			]).then(function(answer) {
+			]).then(card => {
 
-				var number = 0;
+				let number = 0;
+				
+				basicArr.forEach((item, index) => {
 
-				for(var i = 0; i < cardArray.length; i++) {
-					// when the the user's choice matches the object found in the array
-					if(answer.card === cardArray[i].front) {
-						// variable number now equals the matching card's index number
-						number = i;
-					}
-				}
-				// use the splice method to delete the card
-				data.splice(number,1);
-				// utilize the writeFile method to re-write cloze.txt's content without the deleted card
-				fs.writeFile("basic.txt", JSON.stringify(data, null, 2), function(err, res) {
-					// if we don't receive an error...
+					if(card.cards === item) {
+
+						number = index;
+					} 	
+				});
+				res.splice(number, 1);
+
+				fs.writeFile("basic.txt", JSON.stringify(res, null, 2), (err, response) => {
+					
 					if(!err) {
-						// display the following
 						console.log("\nContent removed.\n")
 					}
 				});
@@ -51,40 +43,39 @@ function deleteBasic() {
 		}	
 	});
 }
-// this function is identical to the one above
+
 function deleteCloze() {
 
-	fs.readFile("cloze.txt", "utf8", function(err, res) {
+	const clozeArr = [];
+
+	fs.readFile("cloze.txt", "utf8", (err, res) => {
 
 		if(!err) {
 
-			var data = JSON.parse(res);
+			res = JSON.parse(res);
+			res.forEach(item => clozeArr.push(item.full));
 
-			for(var i = 0; i < data.length; i++) {
-
-				cardArray.push(data[i].full)
-			}
 			inquirer.prompt([
 				{
-					name:"card",
+					name:"cards",
 					type: "list",
 					message: "================================================\nWhich cloze card would you like to delete?\n==================================================",
-					choices: cardArray
+					choices: clozeArr
 				}
-			]).then(function(answer) {
+			]).then(card => {
 
-				var number = 0;
+				let number = 0;
+				
+				clozeArr.forEach((item, index) => {
 
-				for(var i = 0; i < cardArray.length; i++) {
+					if(card.cards === item) {
 
-					if(answer.card === cardArray[i].full) {
+						number = index;
+					} 	
+				});
+				res.splice(number, 1);
 
-						number = i;
-					}
-				}
-				data.splice(number,1);
-
-				fs.writeFile("cloze.txt", JSON.stringify(data, null, 2), function(err, res) {
+				fs.writeFile("cloze.txt", JSON.stringify(res, null, 2), (err, response) => {
 
 					if(!err) {
 						console.log("\nContent removed.\n");
@@ -94,7 +85,6 @@ function deleteCloze() {
 		}
 	});
 }
-
 module.exports = {
 
 	deleteBasic,
